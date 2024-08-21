@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 1.25%;
+}
+
+.header__nav {
+  display: flex;
+  width: 100%;
+}
+
+.header__option {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.header__buttonsLeft,
+.header__buttonsMiddle,
+.header__buttonsRight {
+  display: flex;
+  align-items: center; /* Buttons in der Mitte vertikal ausrichten */
+}
+
+.header__buttonsLeft {
+  justify-content: flex-start; /* Buttons nach links ausrichten */
+}
+
+.header__buttonsMiddle {
+  justify-content: center; /* Buttons in der Mitte zentrieren */
+}
+
+.header__buttonsRight {
+  justify-content: flex-end; /* Buttons nach rechts ausrichten */
+}
+
+.header__listButton, .header__start__settings,
+.header__log {
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__listButton:hover,
+.header__log:hover {
+  color: white;
+  border-color: white;
+  border-width: 3px;
+}
+
+.header__dot__divider .bi-dot {
+  font-size: 24px; /* Größe des Punkt-Icons */
+  color: black; /* Farbe des Punkt-Icons */
+  margin: 0 10px; /* Abstand links und rechts vom Punkt */
+}
