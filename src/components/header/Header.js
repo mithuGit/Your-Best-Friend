@@ -42,7 +42,7 @@ function Header() {
               Your Weekly Statistic
             </Button>
             <div className="header__dot__divider">
-              <i class="bi bi-dot"></i>
+              <i className="bi bi-dot"></i>
             </div>
             <Button
               className="header__listButton"
